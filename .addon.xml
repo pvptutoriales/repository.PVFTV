@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.f4mTester" version="2.1.7" name="f4mTester" provider-name="Shani">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.1.7"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>f4mTester</summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.live.streams"
+       name="DigiTele Player"
+       version="6.5"
+       provider-name="AarronLee, Shani">
+   <requires>
+	<import version="2.1.0" addon="xbmc.python"/>
+	<import version="3.2.1" addon="script.module.beautifulsoup"/>
+	<import version="0.9.4" addon="script.module.simple.downloader"/>
+	<import addon="script.module.beautifulsoup4"/>
+	<import version="0.9.4" addon="script.module.simple.downloader"/>
+	<import addon="script.module.requests"/>
+	<import addon="script.module.httplib2"/>
+	<import addon="script.module.youtube.dl" optional="true"/>
+	<import addon="plugin.video.youtube"/>
+	<import addon="script.module.urlresolver" optional="true"/>
+	<import addon="script.module.simplejson"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+        <summary>Reproductor para DIGITELE</summary>
+    <description>
+       Reproductor de video para reproducir los canales premium de DigiTele España
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.notfilmon" name="NotFilmOn" version="4.9.2" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">NotFilmOn</summary>
+    <description lang="en">Stream And Record From FilmON.....Official Support....XBMCTALK.COM</description>
+    <disclaimer lang="en">By using This Plugin You will receive sometimes an advert which helps funds the developers developing.....we all thank you!!</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ntv" name="NTV.mx" version="3.2.5" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">NTV.mx</summary>
+    <description lang="en">Stream all of your favourites sports,movies and tv from NTV.mx</description>
+    <platform>all</platform>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="login" />
+</addon>
+
+<addon id="plugin.video.p2p-streams"
+       name="p2p-streams"
+       version="0.2.7"
+       provider-name="enen92 - fightnight">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.0.8"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.module.pytz" />
+    <import addon="script.module.mechanize" version="0.2.6"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>P2P-Streams addon</summary>
+    <description lang="en">P2P-Streams addon makes it easy for you to watch peer-to-peer streams in XBMC without the need for external players. Currently supporting Acestream and Sopcast streams it comprises an auto-configuration tool that will download the engines specifically for your platform.
+Supported platforms: Linux (Ubuntu/Debian/CentOS), Raspberry Pi (Openelec,Raspbmc,Xbian), Windows, Mac, Android, Openelec x86_64, Linux armv7 (MXLinux).
+Credits: Cristi - Atlanta (xsopcast plugin); NouisMons (acestream engine plugin); Tarasian666 (Mac/Rpi/armv7 ace engines); Divingmule (livestreams plugin); Marquerite (addor art).</description>
+    <description lang="pt">O addon p2p-Streams torna possível assistir de forma simples a streams peer-to-peer directamente no XBMC sem a necessidade de players externos. De momento suporta streams Ace (Acestreams) e Sopcast e inclui uma ferramenta de autoconfiguração que irá fazer o download das engines correspondentes ao seu sistema operativo.
+Plataformas suportadas: Linux (Ubuntu/Debian/CentOS), Raspberry Pi (Openelec,Raspbmc,Xbian), Windows, Mac, Android, Openelec x86_64, Linux armv7 (MXLinux).
+Créditos: Cristi - Atlanta (xsopcast plugin); NouisMons (acestream engine plugin); Tarasian666 (Mac/Rpi/armv7 ace engines); Divingmule (livestreams plugin); Marquerite (addor art).</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.SportsDevil"
+  version="3.0.3"
+  name="DigiTele Sports"
+  provider-name="AarronLee, MaxMustermann">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>
+   <import addon="script.common.plugin.cache" version="0.9.1"/>
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>DigiTele Sports</summary>
+    <description>Add-on para ver los canales deportivos de DigiTele (vip racing 1-2-3-4-5-6-7-8)</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.teledunet"
+       name="Teledunet.com"
+       version="2.3.7"
+       provider-name="hadynz">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.beautifulsoup" version="3.0.8"/>
+        <import addon="script.module.xbmcswift2" version="1.1.1" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Teledunet.com</summary>
+        <description>Télé du Net is a free online broadcasting service based in Tunisia that is dedicated to online viewers that live outside the Arab world.
+
+It broadcasts channels through the internet 24/7. The service is completely free to use and has a great compilation of channels to choose from.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.googlecode.anarchintosh-projects" name="anarchintosh addons" version="1.0.1" provider-name="anarchintosh">
+	<extension point="xbmc.addon.repository" name="anarchintosh add-on repository">
+		<info compressed="false">http://anarchintosh-projects.googlecode.com/svn/addons/addons.xml</info>
+		<checksum>http://anarchintosh-projects.googlecode.com/svn/addons/addons.xml.md5</checksum>
+		<datadir zip="true">http://anarchintosh-projects.googlecode.com/svn/addons</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Addons from http://anarchintosh-projects.googlecode.com</summary>
+		<description>Download and install addons from anarchintosh repository.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.kodi-repo-oficial" name="DigiTele TV Repo 2015" version="1.0" provider-name="DigiteleTV">
+	<extension point="xbmc.addon.repository" name="DigiTele TV Repo 2015">
+		<info compressed="false">https://raw.github.com/premiumhostingwebdotcom/kodi-repo-oficial/master/addons.xml</info>
+		<checksum>https://raw.github.com/premiumhostingwebdotcom/kodi-repo-oficial/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/premiumhostingwebdotcom/kodi-repo-oficial/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Instalar Add-Ons de Digitele</summary>
+		<description>Descarga e Instala Addons de Digitele premiumhostingweb.com</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.MaxMustermann.xbmc" name="MaxMustermann's add-ons" version="1.0.1" provider-name="MaxMustermann">
+	<extension point="xbmc.addon.repository" name="MaxMustermann's add-on repository">
+		<info compressed="false">http://xbmc-development-with-passion.googlecode.com/svn/branches/repo/addons.xml</info>
+		<checksum>http://xbmc-development-with-passion.googlecode.com/svn/branches/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://xbmc-development-with-passion.googlecode.com/svn/branches/repo</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install add-ons from MaxMustermann's repository</summary>
+		<summary lang="de">Installiere Add-ons von MaxMustermann's Repository</summary>
+		<description>download and install add-ons from MaxMustermann's repository.</description>
+		<description lang="de">Downloade und installiere Add-ons von MaxMustermann's Repository.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.p2p-streams.xbmc" name="p2p-streams repository" version="1.0.3" provider-name="enen92 - fightnight">
+	<extension point="xbmc.addon.repository" name="p2p-streams Repository">
+		<info compressed="false">http://p2p-strm.googlecode.com/svn/addons/addons.xml</info>
+		<checksum>http://p2p-strm.googlecode.com/svn/addons/addons.xml.md5</checksum>
+		<datadir zip="true">http://p2p-strm.googlecode.com/svn/addons</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>p2p-streams repository</summary>
+   		<description lang="en">Install P2P-Streams addon for XBMC! P2P-Streams addon makes it easy for you to watch peer-to-peer streams in XBMC without the need for external players. Currently supporting Acestream and Sopcast streams it comprises an auto-configuration tool that will download the engines specifically for your platform.
+Supported platforms: Linux (Ubuntu/Debian/CentOS), Raspberry Pi (Openelec,Raspbmc,Xbian), Windows, Mac, Android, Openelec x86_64, Linux armv7 (MXLinux).
+Credits: Cristi - Atlanta (xsopcast plugin); NouisMons (acestream engine plugin); Tarasian666 (Mac/Rpi/armv7 ace engines); Divingmule (livestreams plugin); Marquerite (addor art).</description>
+    		<description lang="pt">Instale o addon P2P-Streams para o XBMC! O addon p2p-Streams torna possível assistir de forma simples a streams peer-to-peer directamente no XBMC sem a necessidade de players externos. De momento suporta streams Ace (Acestreams) e Sopcast e inclui uma ferramenta de autoconfiguração que irá fazer o download das engines correspondentes ao seu sistema operativo.
+Plataformas suportadas: Linux (Ubuntu/Debian/CentOS), Raspberry Pi (Openelec,Raspbmc,Xbian), Windows, Mac, Android, Openelec x86_64, Linux armv7 (MXLinux).
+Créditos: Cristi - Atlanta (xsopcast plugin); NouisMons (acestream engine plugin); Tarasian666 (Mac/Rpi/armv7 ace engines); Divingmule (livestreams plugin); Marquerite (addor art).</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.SportsDevil" name="SportsDevil repository" version="1.0.1" provider-name="Al101">
+	<extension point="xbmc.addon.repository" name="SportsDevil add-on repository">
+		<info compressed="false">http://raw.github.com/al101/repository.SportsDevil/master/addons.xml</info>
+		<checksum>http://raw.github.com/al101/repository.SportsDevil/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/al101/repository.SportsDevil/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Unofficial SportsDevil add-on</summary>
+		<description>SportsDevil created by MaxMustermann maintained by [COLOR blue]XBMCHUB.COM[/COLOR] community (enen92, jorges4lu2, alex35...)</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.xbmchub" name="XBMCHUB.com Addon Repository" version="1.0.2" provider-name="xbmchub.com">
+	<extension point="xbmc.addon.repository" name="XBMCHUB.com Addon Repository">
+		<info compressed="false">http://xbmc-hub-repo.googlecode.com/svn/addons/addons.xml</info>
+		<checksum>http://xbmc-hub-repo.googlecode.com/svn/addons/addons.xml.md5</checksum>
+		<datadir zip="true">http://xbmc-hub-repo.googlecode.com/svn/addons</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The Best Third Party Addons for XBMC, Brought to you by XBMCHUB.com</summary>
+		<description>The Best Third Party Addons for XBMC, Brought to you by XBMCHUB.com</description>
+		<platform>all</platform>
+                <forum>http://www.xbmchub.com/forums/official-xbmc-hub-repo/</forum>
+                <website>http://www.xbmchub.com/</website>
+	</extension>
+</addon>
+
+<addon id="repository.xunitytalk" name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk Repository" version="1.0.0" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
+	<extension point="xbmc.addon.repository" name="Mikey1234 Addon Repository">
+		<info compressed="false">http://xunitytalk-repository.googlecode.com/svn/addons/addons.xml</info>
+		<checksum>http://xunitytalk-repository.googlecode.com/svn/addons/addons.xml.md5</checksum>
+		<datadir zip="true">http://xunitytalk-repository.googlecode.com/svn/addons</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The Best Third Party Addons for XBMC, .[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk</summary>
+		<description>The Best Third Party Addons for XBMC, .[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.beautifulsoup"
+       name="BeautifulSoup"
+       version="3.2.1"
+       provider-name="Leonard Richardson (leonardr@segfault.org)">
+  <requires>
+    <import addon="xbmc.python"
+    		version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>HTML/XML parser for quick-turnaround applications like screen-scraping</summary>
+    <description>Beautiful Soup parses arbitrarily invalid SGML and provides a variety of methods and Pythonic idioms for iterating and searching the parse tree.</description>
+    <license>BSD</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.simple.downloader" name="Simple Downloader for xbmc plugins" provider-name="TheCollective" version="1.9.4">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.common.plugin.cache" version="2.5.0" />
+    <import addon="script.module.parsedom" version="2.5.1" />
+  </requires>
+  <extension library="default.py" point="xbmc.service" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Simple downloader for xbmc plugins.</summary>
+  </extension>
+  <extension library="lib" point="xbmc.python.module" />
+</addon>
+
+<addon id="script.module.simplejson"
+       name="simplejson"
+       version="3.3.0"
+       provider-name="Martijn">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">Simple, fast, extensible JSON encoder/decoder for Python</summary>
+    <description lang="en">Simple, fast, extensible JSON encoder/decoder for Python</description>
+    <disclaimer lang="en">Code taken from https://pypi.python.org/pypi/simplejson/</disclaimer>
+    <license>MIT License, Academic Free License v. 2.1</license>
+    <website>https://pypi.python.org/pypi/simplejson/</website>
+    <source>https://pypi.python.org/pypi/simplejson/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ZonaPremium"
+       name="ZonaPremium"
+       version="1.0.0"
+       provider-name="ZonaPremium">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" />
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />    
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>ZonaPremium- Muchas Gracias Al Creador Del Addons (shani) Esto Es Solo Una Modificación)</summary>
+    <description>
+       Estas Listas son uso personal,si sacas algún beneficio de ellas,
+	   sera tu responsabilidad,
+	   tener en cuentas que hay paises que están restrigidas las emisiones online de algunos canales e emisones,como peliculas etc, 
+	   no me hago responsable que si lo ves en el pais que estan prohibido,tengan consecuencias.
+	   Por ejemplo España.
+	   Disfruten de este contenido totalmente gratis.
+        
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+</addons>
