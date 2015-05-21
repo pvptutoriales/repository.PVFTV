@@ -15,34 +15,41 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.live.streams"
-       name="DigiTele Player"
-       version="6.5"
-       provider-name="AarronLee, Shani">
-   <requires>
-	<import version="2.1.0" addon="xbmc.python"/>
-	<import version="3.2.1" addon="script.module.beautifulsoup"/>
-	<import version="0.9.4" addon="script.module.simple.downloader"/>
-	<import addon="script.module.beautifulsoup4"/>
-	<import version="0.9.4" addon="script.module.simple.downloader"/>
-	<import addon="script.module.requests"/>
-	<import addon="script.module.httplib2"/>
-	<import addon="script.module.youtube.dl" optional="true"/>
-	<import addon="plugin.video.youtube"/>
-	<import addon="script.module.urlresolver" optional="true"/>
-	<import addon="script.module.simplejson"/>
+<addon id="plugin.video.ZonaPremium"
+       name="ZonaPremium"
+       version="1.0.0"
+       provider-name="ZonaPremium">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" />
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />    
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-        <summary>Reproductor para DIGITELE</summary>
+    <summary>ZonaPremium- Muchas Gracias Al Creador Del Addons (shani) Esto Es Solo Una Modificación)</summary>
     <description>
-       Reproductor de video para reproducir los canales premium de DigiTele España
+       Estas Listas son uso personal,si sacas algún beneficio de ellas,
+	   sera tu responsabilidad,
+	   tener en cuentas que hay paises que están restrigidas las emisiones online de algunos canales e emisones,como peliculas etc, 
+	   no me hago responsable que si lo ves en el pais que estan prohibido,tengan consecuencias.
+	   Por ejemplo España.
+	   Disfruten de este contenido totalmente gratis.
+        
     </description>
     <platform>all</platform>
   </extension>
 </addon>
+
 
 <addon id="plugin.video.notfilmon" name="NotFilmOn" version="4.9.2" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
   <requires>
